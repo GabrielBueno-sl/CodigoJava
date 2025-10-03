@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class Celular_Teste {
+
+	public static void exibirCelular(Celular cell) {
+		System.out.print("esses são os dados do cell");
+		System.out.print(":" + cell.marca);
+		System.out.print(":" + cell.modelo);
+		System.out.print(":" + cell.preco);
+		
+	}
+	
+	
+	public static Celular ObterDados() {
+		Celular cell = new Celular();
+		Scanner tec = new Scanner(System.in);
+		System.out.print("informe o nome da marca:");
+		cell.marca = tec.nextLine();
+		System.out.print("informe o modelo do celular:");
+		cell.modelo = tec.nextLine();
+		System.out.print("informe o valor d celular:");
+		cell.preco = tec. nextDouble();
+		return cell;
+	}
+	
+	
+	public static void main(String[] args) {
+		Celular cell = ObterDados();
+		Celular cell2 = ObterDados();
+		System.out.println("relatorio");
+		exibirCelular (cell);
+		
+	}
+
+}
+
+public class Celular {
+	String marca;
+	String modelo;
+	double preco;
+
+}
+
