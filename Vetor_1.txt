@@ -1,0 +1,23 @@
+package Bueno;
+import java.util.Scanner;
+public class Bueno {
+
+	public static void main(String[] args) {
+		Scanner tec = new Scanner(System.in);
+		System.out.println("escreva seu top 3 comidas");
+		String[] nome = new String[3];
+		
+		for(int i = 0; i < nome.length;i++) {
+		System.out.print("quais são suas comidas preferidas:");
+		nome[i] = tec.nextLine();
+		}
+		for(int i = 0; i < nome.length;i++) {
+			System.out.print("Vocẽ gosta de: " + nome[1] + " ");
+		}
+		
+		
+		
+		
+	}
+
+}
