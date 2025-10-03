@@ -26,6 +26,7 @@ public class Celular_Teste {
 	public static void main(String[] args) {
 		Celular cell = ObterDados();
 		Celular cell2 = ObterDados();
+		Celular cell3 = ObterDados();
 		System.out.println("relatorio");
 		exibirCelular (cell);
 		
