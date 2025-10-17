@@ -2,3 +2,4 @@ Na aula do dia 17/10 aprendemos novos comandos
 o comando git clone ele clona o repositório 
 que você escolher e pode facilitar a edição
 agora o comando pull ele compara os dois arquivo 
+e mescla os dados 
