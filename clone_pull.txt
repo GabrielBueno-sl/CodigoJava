@@ -1,0 +1,2 @@
+Na aula do dia 17/10 aprendemos novos comandos 
+o comando git clone ele clona o repositório 
